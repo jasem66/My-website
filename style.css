@@ -1,4 +1,70 @@
-*{
-font-family:Arial, Helvetica, sans-serif;
-color: rgb(129, 129, 131);
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(129, 129, 131);
+}
+
+li a {
+
+ color:black !important;
+}
+li a:hover{
+ color :aqua !important;
+ transition: 1s;
+  transform: scale(1.1);
+}
+
+#intro {
+  background-image: url('https://i.pinimg.com/564x/3a/b3/8e/3ab38e395dd4950db6d8e0c39ad21e31.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ 
+  height: 100vh;
+}
+
+@media (min-width: 992px) {
+  #intro {
+    width: 1000;
+  }
+}
+
+.navbar .nav-link {
+  color: #fff;
+}
+
+.upScroll {
+  border-radius: 50%;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
+.upScroll img {
+  width: 35px;
+  height: 35px;
+}
+.sameSizeImage {
+  width: 150px !important;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 992px) {
+  .sameSizeImage {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .sameSizeImage {
+    width: 75px;
+    height: 75px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .sameSizeImage {
+    width: 150px;
+    height: 150px;
+  }
 }
